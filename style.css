@@ -1,0 +1,16 @@
+/* Importing/Linking to the Nunito Google Font */
+/* Not currently working, new font? */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    /* box-sizing: border-box inclused padding and a border when setting a width or heights */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+}
+
