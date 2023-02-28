@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --white: #fff;
+}
+
 body{
     font-family: 'Nunito', sans-serif;
     line-height: 1.5;
@@ -71,6 +75,12 @@ video{
     color: #fff;
     z-index: 2;
     text-align: center;
-    
 
+}
+
+#click{
+    /* Allows you to set top and bottom margin as well as width/height. This is not the case for inline. */
+    display: inline-block;
+    margin-top: 25px;
+    border: 2px solid var(--white);
 }
